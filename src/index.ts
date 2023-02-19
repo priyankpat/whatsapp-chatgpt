@@ -1,3 +1,4 @@
+require('isomorphic-fetch');
 import qrcode from "qrcode-terminal";
 import { Client, Message, Events } from "whatsapp-web.js";
 import { startsWithIgnoreCase } from "./utils"
